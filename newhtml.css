@@ -1,0 +1,31 @@
+body{margin: 20px
+font:300 20px/1.5 Lato, "Helvetica Neue", Helvetica, arial, sans-serif;}
+
+ #container{
+ 	background: rgba(0,0,0,.4);
+	list-style: none;
+	display: inline-block;
+
+}
+ul li {
+	list-style:none;
+	display:inline-block;
+
+}
+ul li a{
+	color: rgba(0,0,0,4);
+}
+ul li a:hover{
+	color:navy;
+}
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

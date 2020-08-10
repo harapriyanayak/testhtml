@@ -1,0 +1,54 @@
+h1{
+	color:red;
+	/*background-color:rgb(255,255,0);*/
+	border:5px solid black;
+	letter-spacing:5px;
+	word-spacing:3px;
+	text-align:center;
+	text-transform:uppercase;
+	text-shadow:4px 4px 4px blue;
+	font: 'Lobster', cursive,italic,bold;
+	margin:25px 25px 25px 25px;
+	padding:20px 20px 20px 20px;
+	border:green solid 20px;
+	border-radius: 36px;
+	box-shadow: 10px 5px 5px 5px #ff0;
+	}
+p{
+	color:#f00;
+	/*background-color:rgb(255,255,0);*/
+	border:5px solid black;
+	letter-spacing:2px;
+	word-spacing:2px;
+	text-indent:2em;
+	font: 'Dancing Script', cursive, italic,bold ;
+	margin:25px 25px 25px 25px;
+	padding:20px 20px 20px 20px;
+	border:green dashed 20px;
+	
+}
+
+a{
+	color:red;
+	text-decoration:underline;
+	font-family: 'Pacifico', cursive;
+	font-style:italic;
+	font-weight:bold;
+	margin:25px 25px 25px 25px;
+	padding:20px 20px 20px 20px;
+	
+}
+ul li a{color:gray;
+
+}
+ul li{list-style:none;display:inline-block;
+
+}
+ul li a:hover{color:navy;}
+ul li:first-child a{color:black;}
+ul li:last-child a{color:blue;}
+ul li:nth-child(2) a{color:red;}
+p::first-letter{font-size: 50px;color: black;}
+ul li::page-break-after: {content: "<"}
+
+}
