@@ -43,29 +43,21 @@ h2{color:yellow;}
 	word-spacing:5px;
 	direction:ltr;
 	text-indent:2em;
-	font-size:2em;
-	font-weight:bold;
+	font: 2em bold;
 	/*text-transform:uppercase*/
-	margin-top:20px;
-	margin-left:50px;
-	margin-right:20px;
-	padding-top:20px;
-	padding-left:30px;
-	padding-right:20px;
+	margin: 10px 10px ;
+	padding:10px 10px;
 	background-color:red;
-	border-style:solid;
-	border-width:5px;
-	border-color:black;
-	border-bottom-width:5px;
-	
+	border-style:solid black 5px;
+	width: 60%
 }
 #textcss1{
 	font-family: 'Vollkorn', serif;
 	letter-spacing:2px;
 	word-spacing:1px;
-	text-align:center;
-	font-size:2em;
-	font-weight:bold;
+	
+	font:1em bold;
+
 	/*text-transform:uppercase*/
 	
 	
@@ -75,35 +67,24 @@ h2{color:yellow;}
 	letter-spacing:2px;
 	word-spacing:1px;
 	direction:ltr;
-	font-size:2em;
-	font-weight:bold;
-	margin-top:20px;
-	margin-left:50px;
-	margin-right:20px;
-	margin-bottom:10px;
-	padding-top:20px;
-	padding-left:30px;
-	padding-right:20px;
+	font-size:2em bold;
+	margin-top:20px 20px;
+	padding-top:20px 30px;
 	background-color:red;
-	border-style:solid;
-	border-width:5px;
-	border-color:black;
-	border-bottom-width:5px;
-	
+	border:solid black 5px;
 	/*text-transform:uppercase*/
+	widows: 60%;
+	 caption-side: bottom 
 }
 .textcss0{
 	font-family: 'Vollkorn', serif;
 	text-align:center; 
 	background-color:red;
 	color: green;
-    background-color: red;
-    text-align: center;
     margin-top: 10px;
     padding-top: 20px;
-    border-style: solid;
-    border-color: black;
-    border-width: 10px;
+    border: solid black 10px
+    
 }
 	
 }

@@ -1,32 +1,199 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-check the color
-</title>
-<style>
-body
-	{background-image: url(download.jpg);
-background-repeat: no-repeat;
-background-size:100% 100%;	
-	}
+	<title>
+		check the color
+	</title>
+	<style>
+		/*body
+		{background-image: url(download.jpg);
+			background-repeat: no-repeat;
+			background-size:100% 100%;	
+		}*/
+
+.xyz ,.abc{
+	background-color: red;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+
 </style>
 <link rel="stylesheet" href="color.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-<h1> To identify the color</h1>
-<p> The following is a list of colors. A number of the color swatches below are taken from domain-specific naming schemes such as X11 or HTML4. RGB values are given for each swatch because such standards are defined in terms of the sRGB color space. It is not possible to accurately convert many of these swatches to CMYK values because of the differing gamuts of the two spaces, but the color management systems built into operating systems and image editing software attempt such conversions as accurately as possible.
-</p>
-<ul> 
-<li><a>black</a></li> 
-<li><a> red</a></li> 
-<li><a> blue</a></li> 
-<li><a>white</a></li> 
-</ul><br>
+	<div class="container-fluid">
+		<h1> To identify the <big>color</big></h1>
+		<img src="download1.jpg" class="fluid" width="460" height="345">
+<nav class="navbar navbar-expand-md bg-warning navbar-light">
+	<a class="navbar-brand" href="logo">logo</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse"id="collapsibleNavbar">
+		<ul class="navbar-nav"> 
+			<li class="nav-item"><a href="black.html" class="nav-link active" accesskey="q">black</a></li> 
+			<li class="nav-item"><a href="red.html" class="nav-link"> red</a></li> 
+			<li class="nav-item"><a href="blue.html"  class="nav-link"> blue</a></li> 
+			<li class="nav-item"><a href="white.html" class="nav-link">white</a></li>
 
-<a>
-Harapriya nayak
-</a>
+			 
+		</ul>
+	</div>
+	</nav><br><br>
+
+<div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Click on me
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          By defining a color space, colors can be identified numerically by coordinates, which in 1931 were also named in global agreement with internationally agreed color names like mentioned above (red, orange, etc.) by the International Commission on Illumination. The RGB color space for instance is a color space corresponding to human trichromacy and to the three cone cell types that respond to three bands of light: long wavelengths, peaking near 564–580 nm (red); medium-wavelength, peaking near 534–545 nm (green); and short-wavelength light, near 420–440 nm (blue).[1][2] There may also be more than three color dimensions in other color spaces, such as in the CMYK color model, wherein one of the dimensions relates to a color's colorfulness).
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="##collapseTwo">
+        Click on me 2
+      </a>
+      </div>
+      <div id="#collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          By defining a color space, colors can be identified numerically by coordinates, which in 1931 were also named in global agreement with internationally agreed color names like mentioned above (red, orange, etc.) by the International Commission on Illumination. The RGB color space for instance is a color space corresponding to human trichromacy and to the three cone cell types that respond to three bands of light: long wavelengths, peaking near 564–580 nm (red); medium-wavelength, peaking near 534–545 nm (green); and short-wavelength light, near 420–440 nm (blue).[1][2] There may also be more than three color dimensions in other color spaces, such as in the CMYK color model, wherein one of the dimensions relates to a color's colorfulness).
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="collapseThree">
+          Click on me 3
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          By defining a color space, colors can be identified numerically by coordinates, which in 1931 were also named in global agreement with internationally agreed color names like mentioned above (red, orange, etc.) by the International Commission on Illumination. The RGB color space for instance is a color space corresponding to human trichromacy and to the three cone cell types that respond to three bands of light: long wavelengths, peaking near 564–580 nm (red); medium-wavelength, peaking near 534–545 nm (green); and short-wavelength light, near 420–440 nm (blue).[1][2] There may also be more than three color dimensions in other color spaces, such as in the CMYK color model, wherein one of the dimensions relates to a color's colorfulness).
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+
+
+
+
+    <br><br>
+	
+
+		<a>
+			Harapriya nayak
+		</a>
+
+		<br><br><br>
+
+		<div class="row">
+			<div class="col-sm-3" style="background-color:yellow">no of student
+			</div>
+
+			<div class="col-sm-3" style="background-color:blue"> name
+			</div>
+
+			<div class="col-sm-3" style="background-color:red">rollno
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-sm-3">1
+			</div>
+
+			<div class="col-sm-3">shantilata nayak
+			</div>
+
+			<div class="col-sm-3"> 01
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-sm-3">2
+			</div>
+
+			<div class="col-sm-3">sunil kumar nayak
+			</div>
+
+			<div class="col-sm-3">02
+			</div>
+
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+				   <th>serial no</th>
+				   <th>name</th>
+				    <th>age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="table-primary">
+					<td>01</td>
+					<td>shantilata nayak</td>
+					<td>65</td>
+				</tr>
+				<tr>
+					<td>02</td>
+					<td>sunil kumar nayak</td>
+					<td>43</td>
+				</tr>
+				<tr>
+					<td>03</td>
+					<td>purnima nayak</td>
+					<td>42</td>
+				</tr>
+				<tr>
+					<td>04</td>
+					<td>sushant nayak</td>
+					<td>39</td>
+				</tr>
+				<tr>
+					<td>05</td>
+					<td>sheetal nayak</td>
+					<td>34</td>
+				</tr>
+				<tr>
+					<td>06</td>
+					<td>sukant nayak</td>
+					<td>35</td>
+				</tr>
+				<tr>
+					<td>07</td>
+					<td>harapriya nayak</td>
+					<td>24</td>
+				</tr>
+			</tbody>
+			
+		</table>
+
+
+		<div class="alert alert-danger">
+		<strong>dont do anything<a href="mismathch"class="alert-link">mismathch</a></strong>
+		</div>
+
+
+
+
+	</div>
 </body>
 </html>

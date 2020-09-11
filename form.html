@@ -2,26 +2,160 @@
 <html>
 <head>
 <title>form</title>
+<style> 
+   /* input[type=email]:valid
+ { background: green }
+ input[type=email]:invalid { background: red }
+input[type=email] { background: none; }*/ 
+</style>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="container-fluid">
+
 <script type="text/javascript">
 alert("do you want to save the password")
 </script>
 
-<form action="my page.html" autocomplete="on" method="post" name-"login id" novalidate>
-User Name:<input type="text" name="email id"><br><br>
-password:<input type="password"><br><br>
-<input type="checkbox">
-<input type="radio">
-<select>
-<option value="male">male</option>
-<option value="female" selected="female">female</option>
-<option value="transgender">transgender</option>
-</select>
-<p><input type="submit"></p>
+<form action="my page.html" autocomplete="on" method="post" name="login id" novalidate>
+	<br><br>
+
+
+	<fieldset><legend>info detail</legend>
+
+ <div  class="form-group">
+     <label for="Email">Email</label>
+      <input type="Email" class="form-control" id="Email" placeholder="Enter Email" name="Email">
+</div>
+<br>
+<div class="form-group">
+     <label for="pwd">password</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+</div>
+<br>
+<form action="/action_page.php">
+<div class= "custom-control custom-switch">
+        <input class="custom-control-input" type="checkbox"name="remember" id="switch1">
+    <label class="custom-control-label"for="switch1">remember me</label>
+    <br><br>
+</div>
+	<input type="submit" class="btn btn-outline-success btn-lg" formaction="my page.html">
+	<input type="submit" value="submit to " formaction="NEW PAGE.HTML">
+<br><br>
+
+color pick:<input type="color" name="color">
+<br><br>
+
+<div class="btn-group">
+    
+        <button type="button" class="btn btn-success"> samsung 
+        </button>
+        <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+        </button>
+            <div class="dropdown-menu">
+              <h1 class="dropdown-header">dd header</h1>
+              <a class="dropdown-item-active" href="tablet">tablet</a>
+              <a class="dropdown-item" href="mobile">mobile</a>
+              <a class="dropdown-item" href="tv">tv</a>
+              <div class="dropdown-divider"></div>
+               <h1 class="dropdown-header">dd header</h1>
+              <a class="dropdown-item" href="another link">another link</a>
+
+            </div>
+</div>
+  <div class="btn-group">
+        <button type="button" class="btn btn-warning">sony</button>
+        <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+        </button>
+            <div class="dropdown-menu">
+              <h1 class="dropdown-header">dd header</h1>
+              <a class="dropdown-item-active" href="tablet">tablet</a>
+              <a class="dropdown-item" href="mobile">mobile</a>
+              <a class="dropdown-item" href="tv">tv</a>
+              <div class="dropdown-divider"></div>
+               <h1 class="dropdown-header">dd header</h1>
+              <a class="dropdown-item" href="another link">another link</a>
+
+             </div>
+    </div>
+        <div class="btn-group">
+
+            <button type="button" class="btn btn-danger">LG</button>
+            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+            </button>
+
+           <div class="dropdown-menu">
+              <h1 class="dropdown-header">dd header</h1>
+              <a class="dropdown-item-active" href="tablet">tablet</a>
+              <a class="dropdown-item" href="mobile">mobile</a>
+              <a class="dropdown-item" href="tv">tv</a>
+              <div class="dropdown-divider"></div>
+               <h1 class="dropdown-header">dd header</h1>
+              <a class="dropdown-item" href="another link">another link</a>
+
+            </div>
+         </div>     
+
+<br><br>
+
 <p>
-<textarea row="10" cols="30"> hdfuieiunfksisgiufiuwhkfkgfukjkgfwbffbcfbshfvwgwfhnw</textarea></p>
+    <div class="form-group">
+        <label for="comment">comment:</label>
+    <textarea class="form-control" row="10" cols="30"></textarea>
+    </div>
+
+</p>
+<br>
+
+
+    <fieldset>
+        <legend>Name</legend>
+        <p>First name <input name="firstName"></p>
+        <p>Last name <input name="lastName"></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+        <p>Address <textarea name="address"></textarea></p>
+        <p>Postal code <input name="postcode"></p>
+    </fieldset>
+
+    <br><br><br>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <br><br><br>
+    <h1>this is new application form<span class="badge badge-pill badge-warning">new</span><span><button type="button" class="btn  btn-success"> message <span class="badge badge-light">7</span></button></span></h1>
+
+<br><br>
+<h5>id proof card</h5>
+<div class="card" >
+   <div class="card" style="width: 240px">
+    <img class="card-image" src="C:\Users\sukan\Downloads\BeautyPlus_20170908203945_save.jpg" alt="card-image" 
+    style="width: 100%">
+    <div class="card-column">
+        <div class="card-bg-warning">
+    <div class="card-body">
+        <h7 class="card-title">Harapriya nayak</h7>
+        <p class="card-text"> software engineer at dbs singapore</p>
+        <a href="#" class="btn-btn-success stretched-link">see the profile</a>
+
+     </div>
+     </div>
+   </div>
+ </div>
+</div>
 
 </form>
+</div>
 
 </body>
