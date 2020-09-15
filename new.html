@@ -5,39 +5,210 @@
 		new html
 	</title>
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 <style>
-	body {margin:0;}
+#new{ width: 100% 
 
-
+}	
+ #net{
+ 	color: #346eeb;
+ 	font-size: 15px;
+ 	padding-bottom: 20px,
+ }
+	
 </style>
+
 <body>
+
+	
+		<nav class="navbar navbar-expand-md navbar-dark bg-primary" id="new">
+		  <div class="container-fluid" >
+		  	<header>
+			<a href="" class="navbar-brand">sonatype       |       lifecycle release90s</a>
+	          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarsid">
+		         <span class="navbar-toggler-icon"></span>
+	           </button>
+	        </header>
+	           <div class="collapse navbar-collapse justify-content-between" id="navbarsid">
+			       <ul class="navbar-nav text-center">
+			            <li class="nav-item">
+					     <a href="#" class="nav-link"></a>
+				       </li>
+				      <li class="nav-item">
+					     <a href="#" class="nav-link active">dashboard</a>
+				       </li>
+				       <li class="nav-item">
+					   <a href="#" class="nav-link active">report</a>
+				       </li>
+				        <li class="nav-item">
+					     <a href="#" class="nav-link active">org and pollcies</a>
+				         </li>
+				         <li class="nav-item">
+				        	<a href="#" class="nav-link active">metrics</a>
+				            </li>
+				          <li class="nav-item">
+					      <a href="#" class="nav-link active">vulnerabllites</a>
+				           </li>
+			        </ul>
+		       </div>
+		
+			<nav class="nav nav-tab">
+	                <a class="nav-item"><i class="fa fa-user"></i></a>
+	                  <a class="nav-item"> <i class="fa fa-inbox"></i></a>
+	                   <a class="nav-item"><i class="fa fa-question-circle"></i></a>
+	          </nav>          
+	</div>
+	</nav>
+	 <br><br>
+
+
 	<div class="container-fluid">
-	  <nav class="navbar navbar-expand bg-success navbar-dark">
-		<div class="navbar-header">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-              <a class="navbar-brand" href="sonatype">sonatype</a>
-         </div>
-       <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="lifecyclerelease90s">lifecycl erelease90s</a></li>
-             <li><a href="dashboad">dashboad</a></li>
-              <li><a href="report">report</a></li>
-               <li><a href="orgsandpolicies">orgs and policies</a></li>
-               <li><a href="metrics">metrics</a></li>
-           </ul>
-               <ul class="nav navbar-nav navbar-right">
-                   <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                   <li><a href="#"><span class="glyphicon glyphicon-inbox"></span>inbox</a></li>
-                   <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span></a></li>
-                </ul>
-      </div>
+		 <div class="row">
+	      <div class="col-sm-3">
+	      	<div class="accordion" id="accor">
+	      	<div class="card">
+            <div class="card-header" id="iop">
+                <h2 class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#Two"><i class="fa fa-angle-left" id="net"></i>All Reports</button>
+                </h2>
+            </div>
+            <div id="Two" class="collapse" aria-labelledby="iop" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+          
+		      <h1 style="font-size:20px;"><b><u> Application Report View</u></b></h1>
+		        <form action="/action_page.php">
+	              <div class="form-check">
+	                <label class="form-check-label" for="radio1">
+	                 <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Aggregated by Component
+	                </label>
+	               </div>
+	                <div class="form-check">
+	                  <label class="form-check-label" for="radio2">
+	                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">All Violation
+	                  </label> 
+	                 </div>
+	              </form><br> 
+
+	<h2 style="font-size:20px;"><u><b>Filters</b></u></h2>
+
+<div class="accordion" id="accor">
+	<div class="card">
+            <div class="card-header" id="headingOne">
+                <p class="mb-0">
+                    <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-angle-right"></i>Proprietary</button>									
+                </p>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>HTML stands for HyperText Markup Language. HTML is the standard markup language for describing the structure of web pages. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+	<div class="card">
+            <div class="card-header" id="headingTwo">
+                <p class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-angle-right"></i>Component Match State</button>
+                </p>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+      
+       </div>
+<div class="card">
+            <div class="card-header" id="headingwo">
+                <p class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsewo"><i class="fa fa-angle-right"></i>Violation State</button>
+                </p>
+            </div>
+            <div id="collapsewo" class="collapse" aria-labelledby="headingwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+<div class="card">
+            <div class="card-header" id="headingTw">
+                <p class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTw"><i class="fa fa-angle-right"></i>Policy types</button>
+                </p>
+            </div>
+            <div id="collapseTw" class="collapse" aria-labelledby="headingTw" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+<div class="card">
+            <div class="card-header" id="headingT">
+                <p class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-angle-right"></i>Dependency Tpe</button>
+                </p>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingT" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+
+<div class="card">
+            <div class="card-header" id="headingTo">
+                <p class="mb-0">
+                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-angle-right"></i>Policy Threat Level</button>
+                </p>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+
 </div>
 
-</body>
-</html>
+	<hr class="d-sm-none">
+	</div>
+ <div class="col-sm-8">
+<h3 style="font-size: 35px"><b>Murex_MOD_murex-interface Build Report</b></h3>
+<p>2020-09-10 13:46:35 UTC+0800</p>
+</div>
+	</div>
+	</div>
+	<!-- <hr class="d-sm-none">
+	
+ <div class="col-sm-8"></div>
+
+<h3 style="font-size: 35px"><b>Murex_MOD_murex-interface Build Report</b></h3> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+	</html>
